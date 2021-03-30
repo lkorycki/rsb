@@ -2,9 +2,9 @@
 Experiments for: *Experience Replay for Continual Learning under Concept Drift*.
 
 ### Code
-ER, RSB: *learners/er.py*
+- ER, RSB: *learners/er.py*
 
-Experiments: *benchmark/er_runner.py*
+- Experiments: *benchmark/er_runner.py*
 
 ### Packages
 ```
