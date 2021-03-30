@@ -3,7 +3,7 @@ import benchmark.extractors as extractor
 
 
 def main():
-    # extractor.extract()
+    extractor.extract()
     er_runner.run()
 
 
