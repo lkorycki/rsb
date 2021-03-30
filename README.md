@@ -1,3 +1,11 @@
 # rsb
+Experiments for: *Experience Replay for Continual Learning under Concept Drift*.
 
-Will be updated by March 30.
+### Packages
+```
+pip install wheel
+pip install -r requirements.txt
+```
+
+### Run
+
