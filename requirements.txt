@@ -30,7 +30,7 @@ future==0.18.2
 gast==0.3.3
 google==3.0.0
 google-api-core==1.23.0
-google-auth==1.20.1
+google-auth==1.21.1
 google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
 googleapis-common-protos==1.52.0

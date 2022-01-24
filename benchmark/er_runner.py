@@ -85,7 +85,7 @@ class ExperimentExperienceReplay(Experiment):
 def run():
 
     # Stationary
-    ExperimentExperienceReplay().run(algorithms=['NN', 'ER-CB0', 'ER-CB1'],
+    ExperimentExperienceReplay().run(algorithms=['NN', 'ER-CB-2000-p0', 'ER-CB-2000-p1'],
                                      streams=['CIFAR10-REC-TENSOR-S1', 'SVHN-REC-TENSOR-S1',
                                               'FASHION-REC-TENSOR-S1', 'MNIST-REC-TENSOR-S1', 'IMAGENET10-REC-TENSOR-S1'],
                                      evaluators=['IncEval-ep10'])
@@ -103,7 +103,7 @@ def run():
                                      evaluators=['IncEval-ep5'])
 
     # Drifting
-    ExperimentExperienceReplay().run(algorithms=['NN', 'ER-CB0', 'ER-CB1'],
+    ExperimentExperienceReplay().run(algorithms=['NN', 'ER-CB-2000-p0', 'ER-CB-2000-p1'],
                                      streams=['CIFAR10-REC-TENSOR-D1', 'SVHN-REC-TENSOR-D1',
                                               'FASHION-REC-TENSOR-D1', 'MNIST-REC-TENSOR-D1', 'IMAGENET10-REC-TENSOR-D1'],
                                      evaluators=['IncEval-ep10'])
