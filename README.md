@@ -35,3 +35,14 @@ python main.py
 
 - TensorBoard: http://localhost:6006/
 
+### Citation
+
+```
+@article{Korycki2021:er,
+  title={Class-Incremental Experience Replay for Continual Learning under Concept Drift},
+  author={Lukasz Korycki and B. Krawczyk},
+  journal={2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
+  year={2021},
+  pages={3644-3653}
+}
+```
